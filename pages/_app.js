@@ -79,7 +79,7 @@ function MyApp() {
 
       <select className="employer" name="employer"
             onChange={(e) => search(e.target.value)}>
-            <option value="" disabled  hidden>Employer...</option>
+            <option value="" disabled  hidden>breeds...</option>
                 {breedList.map((item ,idx) =>
                   <option key ={idx} value={item}>{item}</option>
                 )}
